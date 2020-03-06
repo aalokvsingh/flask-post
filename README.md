@@ -1,4 +1,5 @@
-# flask-post
+# flask-post-project-for-fresher
+
 <h1> This project is for one who wants exposure in Flask Framework</h1> <br/>
 You will use below mentioned python packeages<br/>
 <ul>
