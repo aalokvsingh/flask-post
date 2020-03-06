@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+{% block body %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('  {{url_for('static',filename='img/home-bg.jpg')}}   ')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Admin Panel</h1>
+            <span class="subheading">Admin Panel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+        <a href="/edit/0"><button type="button" class="btn btn-primary">Add A New Post</button></td></a>
+      <div class="col-lg-8 col-md-10 mx-auto">
+        Welcome to my blog {{session['username']}}
+        #file upload features
+        <form action ="/uploader" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Example file input</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1" name="file1">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" id="filesubmit">Submit File</button>
+          </div>
+        </form>
+<div class="container">
+  <h2>Striped Rows</h2>
+  <p>The .table-striped class adds zebra-stripes to a table:</p>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Sr No</th>
+        <th>Title</th>
+        <th>Edit</th>
+          <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for post in post%}
+      <tr>
+        <td>{{post.srno}}</td>
+        <td>{{post.title}}</td>
+          <td><a href="/edit/{{post.srno}}"><button type="button" class="btn btn-primary">Edit</button></td><a></td>
+          <td><a href="/delete/{{post.srno}}"><button type="button" class="btn btn-primary">Delete</button></td></a></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
