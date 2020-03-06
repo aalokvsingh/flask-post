@@ -22,4 +22,5 @@ How to query data from a table</li>
 <li>Working with contact form</li>
 <li>Running app in local server</li>
 <li>Session Login and Logout</li>
+  <li>Pagination</li>
 </ul>
