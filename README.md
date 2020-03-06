@@ -1,22 +1,25 @@
 # flask-post
-This project is for fresher who wants exposes in Flask Framework <br/>
-You will use below mentioned python packeages 
-Flask<br/>
-SQLAlchemy,<br/>
-werkzeug secure_filename<br/>
-json<br/>
-os<br/>
-math<br/>
-datetime<br/>
-Jinja<br/>
+<h1> This project is for one who wants exposure in Flask Framework</h1> <br/>
+You will use below mentioned python packeages<br/>
+<ul>
+  <li>Flask</li>
+  <li>SQLAlchemy,<br/>
+  <li>werkzeug secure_filename</li>
+  <li>json</li>
+<li>os</li>
+<li>math</li>
+<li>datetime</li>
+<li>Jinja</li>
+</ul>
 
-
-We will learn 
-How to query data from a table<br/>
-How to store data into a table <br/>
-Image upload<br/>
-Send Email<br/>
-Working with contact form<br/>
-Running app in local server<br/>
-Session Login and Logout<br/>
-
+<b>We will learn </b>
+<ul>
+  <li>
+How to query data from a table</li>
+<li>How to store data into a table </li>
+<li>Image upload</li>
+<li>Send Email</li>
+<li>Working with contact form</li>
+<li>Running app in local server</li>
+<li>Session Login and Logout</li>
+</ul>
