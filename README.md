@@ -3,11 +3,14 @@
 <h1> This project is for one who wants exposure in Flask Framework</h1> <br/>
 You will use below mentioned python packeages<br/>
 <ul>
-  <li>Flask</li>
-  <li>SQLAlchemy,<br/>
-  <li>werkzeug secure_filename</li>
+  <li>Flask<br/><code>pip install -U flask</code></li>
+  
+  <li>SQLAlchemy<br/><code>pip install -U Flask-SQLAlchemy</code></li>
+   
+  <li>werkzeug secure_filename <br/> pip install -U werkzeug</li>
   <li>json</li>
 <li>os</li>
+<li>Flask Mail <br/>pip install flask_mail</li>
 <li>math</li>
 <li>datetime</li>
 <li>Jinja</li>
